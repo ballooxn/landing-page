@@ -1,0 +1,136 @@
+.top, .info, .quote, footer {
+    padding-left: 350px;
+    padding-right: 350px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 350px;
+}
+/* represents the header + navigation bar */
+.top {
+    background-color: #1F2937;
+    color: #FFF;
+    margin-bottom: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    margin-bottom: 50px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.top-button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: 0;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+#info-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 180px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 170px;
+}
+.info-images {
+    flex: 1;
+    height: fit-content;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 480px;
+    padding-right: 480px;
+    margin-bottom: 150px;
+}
+#quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+#author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+.signup {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    border-radius: 30px;
+}
+#signup-text {
+    color: #FFF;
+}
+#signup-heading {
+    margin: 0;
+}
+#signup-button {
+    background-color: #3882F6;
+    color: #FFF;
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 35px;
+    width: 90px;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+footer {
+    margin-top: 150px;
+    background-color: #1F2937;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
